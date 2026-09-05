@@ -1,0 +1,2 @@
+<user><username>admin</username><password>password</password></user>
+<user><username>admin' OR '1'='1</username><password>password</password></user>

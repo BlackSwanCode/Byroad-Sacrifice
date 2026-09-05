@@ -1,0 +1,4 @@
+../../../../etc/passwd
+../../../../etc/shadow
+C:\Windows\win.ini
+C:\Windows\System32\drivers\etc\hosts
